@@ -1,0 +1,159 @@
+
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(1,'默认模板','中通快递',0,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(2,'默认模板','普通快递',2,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(3,'默认模板','普通快递',3,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(4,'默认模板','普通快递',4,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(5,'默认模板','普通快递',5,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(6,'默认模板','普通快递',6,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(7,'默认模板','普通快递',7,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(8,'默认模板','普通快递',8,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(9,'默认模板','普通快递',9,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(10,'默认模板','普通快递',10,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(11,'默认模板','普通快递',11,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(12,'默认模板','普通快递',12,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(13,'默认模板','普通快递',13,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(14,'默认模板','普通快递',14,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(15,'默认模板','普通快递',15,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(16,'默认模板','普通快递',16,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(17,'默认模板','普通快递',17,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(18,'默认模板','普通快递',18,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(19,'默认模板','普通快递',19,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(20,'默认模板','普通快递',20,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(21,'默认模板','普通快递',21,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(22,'默认模板','普通快递',22,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(23,'默认模板','普通快递',23,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(24,'默认模板','普通快递',24,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(25,'默认模板','普通快递',25,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(26,'默认模板','普通快递',26,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(27,'默认模板','普通快递',27,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(28,'默认模板','普通快递',28,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(29,'默认模板','普通快递',29,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(30,'默认模板','普通快递',30,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(31,'默认模板','普通快递',31,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(32,'默认模板','普通快递',32,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee` (`shipp_fee_id`,`shipp_fee_name`,`shipp_name`,`supplier_id`,`is_default`,`created_at`,`updated_at`)
+values(33,'默认模板','普通快递',33,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+
+
+
+
+
+
+
+
+
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(1,1,0,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(2,2,2,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(3,3,3,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(4,4,4,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(5,5,5,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(6,6,6,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(7,7,7,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(8,8,8,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(9,9,9,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(10,10,10,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(11,11,11,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(12,12,12,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(13,13,13,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(14,14,14,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(15,15,15,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(16,16,16,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(17,17,17,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(18,18,18,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(19,19,19,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(20,20,20,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(21,21,21,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(22,22,22,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(23,23,23,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(24,24,24,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(25,25,25,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(26,26,26,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(27,27,27,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(28,28,28,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(29,29,29,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(30,30,30,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(31,31,31,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(32,32,32,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+insert into `woke_shipp_fee_extends` (`id`,`shipp_fee_id`,`supplier_id`,`province`,`city`,`number`,`price`,`xnumber`,`xprice`,`free`,`is_default`,`created_at`,`updated_at`)
+values(33,33,33,'','',1,'5.00',null,null,null,1,'2017-08-04 17:41:29','2017-08-04 17:41:29');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
