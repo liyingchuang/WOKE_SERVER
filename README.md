@@ -20,16 +20,12 @@ Documentation for the framework can be found on the [Laravel website](http://lar
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
 
-## Security iuuc@qq.com Vulnerabilities
+## Security 94260101@qq.com Vulnerabilities
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
 ### License
 
-ysdy8584158 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
-1.问操作流程
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
 {"app_id":"631911b6a1702ba97700dbac572097a5","goods_id":"17","method":"v1.Good.index","nonce":"dmgr6","sign":"7737A339FC003FBD77427B4B3265B1C9"}
-1.花生米无团长
-2.头像问题
-3.没成团不关闭
