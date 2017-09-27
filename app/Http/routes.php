@@ -22,7 +22,7 @@ Route::group(['prefix' => 'manage', 'namespace' => 'manage', 'middleware' => 'Ma
     Route::get('user/thewine/{id}', ['as' => 'manage.user.thewine', 'uses' => 'UserController@thewine']);//酒币明细
     Route::resource('ads', 'AdvertisementController', ['only' => ['index', 'store', 'create', 'edit']]); //广告相关
     Route::resource('adCategory', 'AdvertisementCategoryController', ['only' => ['index', 'store']]); //广告分类相关
-    Route::resource('rbac', 'RbacController', ['only' => ['index', 'show', 'create', 'store']]); //Rbac.
+    Route::controller('rbac', 'RbacController', ['getIndex'=>'manage.rbac.index' , 'getShow'=>'manage.rbac.show', 'getUsers'=>'manage.rbac.users', 'postAddadmin'=>'manage.rbac.addadmin', 'getAdmindel'=>'manage.rbac.admindel', 'getCreate'=>'manage.rbac.create']); //Rbac.
     //商品相关
     Route::get('goods/recycle', ['as' => 'manage.goods.recycle', 'uses' => 'GoodsController@recycle']);
     Route::post('goods/updateNumber', ['as' => 'manage.goods.updatenumber', 'uses' => 'GoodsController@updateNumber']);

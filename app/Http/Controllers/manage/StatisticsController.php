@@ -67,7 +67,7 @@ class StatisticsController extends ManageController
     private function statistics($end_time,$start_time)
     {
         $showdata = [];
-        $info_show_statistics = DB::table('ecs_show_statistics')->where('createtime', '>=', $start_time)->where('createtime', '<=', $end_time)->get();
+        $info_show_statistics = DB::table('woke_show_statistics')->where('createtime', '>=', $start_time)->where('createtime', '<=', $end_time)->get();
         $d=[];
         foreach($info_show_statistics as  $v){
             $key=date("Ymd", strtotime("$v->createtime"));

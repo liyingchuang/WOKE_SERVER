@@ -17,13 +17,13 @@
         <tbody>
             @foreach ($role as $role)
             <tr>
-                <td>{{ $role->role_id }}</td>
-                <td>{{ $role->role_name }}</td>
-                <td>{{ $role->role_describe }}</td>
+                <td>{{ $role->id }}</td>
+                <td>{{ $role->name }}</td>
+                <td>{{ $role->display_name }}</td>
                 <td class="center ">
-                    <a href="{{URL::to('manage/rbac/show')}}?role_id={{ $role->role_id }}" class="btn btn-success  btn-xs
-				    @if( $role->role_id == 1) disabled @else edit @endif"><i class="glyphicon glyphicon-edit"></i>编辑用户</a>
-				   <a class="btn btn-info  btn-xs"  href="{{URL::to('manage/rbac/users')}}/{{ $role->role_id }}"><i class="glyphicon glyphicon-eye-open"></i> 查看</a>
+                    <a href="{{URL::to('manage/rbac/show')}}?role_id={{ $role->id }}" class="btn btn-success  btn-xs
+				    @if( $role->id == 1) disabled @else edit @endif"><i class="glyphicon glyphicon-edit"></i>编辑用户</a>
+				   <a class="btn btn-info  btn-xs"  href="{{URL::to('manage/rbac/users')}}/{{ $role->id }}"><i class="glyphicon glyphicon-eye-open"></i> 查看</a>
                 </td>
             </tr>
             @endforeach

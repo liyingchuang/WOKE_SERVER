@@ -90,19 +90,19 @@
                                     <th style="width:80px;color: #787878">{{ $are->area_name }}</th>
                                     @foreach($are->area_extends as $val)
                                         <td>
-                                            <div class="operat hidden">
+                                            <div class="">
                                                 <a href="javascript:;" class="action ic" style="color: black;">
                                                     <label class="checkbox-inline">
                                                         <input class="province" type="checkbox" id="province" name="province" date="{{ $val->name }}" value="{{ $val->id }}"/> {{ $val->name }}
                                                     </label>
                                                 </a>
-                                                <div class="menu_select c{{ $val->id }}" id="c{{ $val->id }}" style="top: 38px; left: 105px;width:300px;padding: 10px;">
-                                                    @foreach($val->city as $v)
-                                                        <label class="checkbox-inline">
-                                                            <span class="areas"><input type="checkbox" id="city" name="city" value="{{ $v->id }}" disabled>{{ $v->name }}</span>
-                                                        </label>
-                                                    @endforeach
-                                                </div>
+                                                {{--<div class="menu_select c{{ $val->id }}" id="c{{ $val->id }}" style="top: 0px; left: 0px;width:0px;padding: 0px;">--}}
+                                                    {{--@foreach($val->city as $v)--}}
+                                                        {{--<label class="checkbox-inline">--}}
+                                                            {{--<span class="areas"><input type="checkbox" id="city" name="city" value="{{ $v->id }}" disabled>{{ $v->name }}</span>--}}
+                                                        {{--</label>--}}
+                                                    {{--@endforeach--}}
+                                                {{--</div>--}}
                                             </div>
                                         </td>
                                     @endforeach

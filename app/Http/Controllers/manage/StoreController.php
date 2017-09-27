@@ -16,7 +16,7 @@ class StoreController extends ManageController {
      */
     public function getIndex(Request $request) {
         $list = DB::table('woke_supplier')->where('status', '>=', 0)->orderBy('supplier_id', 'desc')->paginate(15);
-        $province = DB::table('ecs_region')->where('region_type', 1)->get();
+        $province = DB::table('woke_region')->where('region_type', 1)->get();
         return view('store.index')->with(['list' => $list, 'province' => $province]);
     }
 
@@ -112,12 +112,12 @@ class StoreController extends ManageController {
         $store_id = $request->get('supplier_id', session('supplier_id')); //如果传入id 就直接进去 没有就看登录
         $store = DB::table('woke_supplier')->where('supplier_id', $store_id)->first();
     //    $store_info = DB::table('woke_supplier_info')->where('supplier_id', $store_id)->first();
-        $province = DB::table('ecs_region')->where('region_type', 1)->get();
+        $province = DB::table('woke_region')->where('region_type', 1)->get();
         if (empty($store)) {
             return redirect('manage/store/index');
         }
-        $city = DB::table('ecs_region')->select('region_name')->where('region_id', $store->city)->first();
-        $district = DB::table('ecs_region')->select('region_name')->where('region_id', $store->district)->first();
+        $city = DB::table('woke_region')->select('region_name')->where('region_id', $store->city)->first();
+        $district = DB::table('woke_region')->select('region_name')->where('region_id', $store->district)->first();
         if (!empty($store_info)) {
             $is_array = explode(",", $store_info->supplier_desc);
             $store_info->keyword = explode(" ", $store_info->keyword);
@@ -179,10 +179,10 @@ class StoreController extends ManageController {
                 $data['idcard_reverse'] = $idcard_reverse;
                 $data['id_card_no'] = $id_card_no;
             }
-            DB::table('ecs_supplier')
+            DB::table('woke_supplier')
                     ->where('supplier_id', $supplier_id)
                     ->update($data);
-            $store_info = DB::table('ecs_supplier_info')->where('supplier_id', $supplier_id)->first();
+            $store_info = DB::table('woke_supplier_info')->where('supplier_id', $supplier_id)->first();
             if (!empty($desc)) {
                 $supplier_desc = implode(",", $desc);
             } else {
@@ -195,9 +195,9 @@ class StoreController extends ManageController {
             $data_info['keyword'] = $keywords;
             $data_info['supplier_desc'] = $supplier_desc;
             if (empty($store_info)) {
-                DB::table('ecs_supplier_info')->insert($data_info);
+                DB::table('woke_supplier_info')->insert($data_info);
             } else {
-                DB::table('ecs_supplier_info')
+                DB::table('woke_supplier_info')
                         ->where('supplier_id', $supplier_id)
                         ->update($data_info);
             }
@@ -212,7 +212,7 @@ class StoreController extends ManageController {
     public function getCity(Request $request) {
         $region_id = $request->get('region_id');
         if ($region_id) {
-            $province = DB::table('ecs_region')->where('parent_id', $region_id)->where('region_type', '>', 1)->get();
+            $province = DB::table('woke_region')->where('parent_id', $region_id)->where('region_type', '>', 1)->get();
             $info = "<option value='0'>请选择</option>";
             foreach ($province as $v) {
                 $info.="<option value='" . $v->region_id . "'  > $v->region_name </option>";
@@ -232,7 +232,7 @@ class StoreController extends ManageController {
     public function getEdit(Request $request) {
         $id = $request->get('id');
         $on = $request->get('on', null);
-        $store = DB::table('ecs_supplier')->where('supplier_id', $id)->first();
+        $store = DB::table('woke_supplier')->where('supplier_id', $id)->first();
         if ($on == 'offon') {
             $status = 0;
             if (!empty($store) && $store->status) {
@@ -240,7 +240,7 @@ class StoreController extends ManageController {
             } else {
                 $status = 1;
             }
-            DB::table('ecs_supplier')
+            DB::table('woke_supplier')
                     ->where('supplier_id', $id)
                     ->update(['status' => $status]);
             echo 'ok';
@@ -252,7 +252,7 @@ class StoreController extends ManageController {
             } else {
                 $enabled = 1;
             }
-            DB::table('ecs_supplier')
+            DB::table('woke_supplier')
                     ->where('supplier_id', $id)
                     ->update(['enabled' => $enabled]);
             echo 'ok';
